@@ -1,3 +1,10 @@
+/*  Moving point
+*   Draws a point at the centre of the screen, its position changes
+*   in accordance with user input (via the joystick).
+*
+*   Author: Andrew Knowles 2021
+*/
+
 #include "mbed.h"
 #include "Joystick.h" 
 #include "N5110.h"
