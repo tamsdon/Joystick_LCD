@@ -24,7 +24,9 @@ void boundary(int x, int y);
 int main(){
     joystick.init();
     lcd.init();
-
+    lcd.setContrast(0.4);      //set contrast to 40%
+    lcd.setBrightness(0.5);     //set brightness to 50% (utilises the PWM)
+    
     while (1) {
         lcd.clear();
         lcd.drawRect(0,0,84,48,FILL_TRANSPARENT);   //draws screen boarder
