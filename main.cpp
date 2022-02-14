@@ -34,6 +34,6 @@ int main(){
         lcd.printString(buffer,0,3);     // display on screen
         lcd.refresh();  // need to fresh the screen to get the message to appear
         
-        thread_sleep_for(30ms);
+        ThisThread::sleep_for(30ms);
     }
 }
